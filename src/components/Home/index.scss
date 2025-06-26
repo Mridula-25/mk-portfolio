@@ -1,17 +1,21 @@
-.home-page {
+@media (min-width: 1025px) {
+.home-page,
+.about-page,
+.contact-page,
+.projects-page {
     .text-zone {
         position: absolute;
        
-        right: 50%;
-        top: 50%;
+        right: 40%;
+        top: 60%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 25%;
         max-height: 90%;
     }
     h1 {
         color: #fff;
-        font-size: 53px;
-        margin: 0;
+        font-size: 300%;
+        margin: 0px;
         font-family: 'Coolvetica';
         font-weight: 400;
         // padding-top: 50px;
@@ -58,7 +62,7 @@
     }
     .flat-button{
         color: #ffd700;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 400;
         letter-spacing: 4px;
         font-family: sans-serif;
@@ -66,7 +70,7 @@
         padding: 10px 10px;
         margin-left: 15px;
         border: 1px solid #ffd700;
-        margin-top: 25px;
+        margin-top: 20px;
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
@@ -79,5 +83,198 @@
             
         }
 
+        
+
+        }
     }
 }
+    
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.home-page,
+.about-page,
+.contact-page,
+.projects-page {
+    .text-zone {
+        position: absolute;
+       
+        right: 30%;
+        top: 20%;
+        transform: translateY(-50%);
+        width: 25%;
+        max-height: 90%;
+    }
+    h1 {
+        color: #fff;
+        font-size: 200%;
+        margin: 0px;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        // padding-top: 50px;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.6;
+        }
+        &::after {
+            content: '</h1>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+
+
+        img {
+            width: 32px;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+        }
+    }
+    h2{
+        color:#adadad;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+    .flat-button{
+        color: #ffd700;
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 8px 8px;
+        margin-left: 10px;
+        border: 1px solid #ffd700;
+        margin-top: 15px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+
+        &:hover {
+            background-color: #ffd700;
+            color: #333;
+
+            
+        }
+
+        
+
+        }
+    }
+}
+    
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+.home-page,
+.about-page,
+.contact-page,
+.projects-page {
+    .text-zone {
+        position: absolute;
+       
+        right: 20%;
+        top: 15%;
+        transform: translateY(-50%);
+        width: 25%;
+        max-height: 90%;
+    }
+    h1 {
+        color: #fff;
+        font-size: 200%;
+        margin: 0px;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        // padding-top: 50px;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 15px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.6;
+        }
+        &::after {
+            content: '</h1>';
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 15px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+
+
+        img {
+            width: 32px;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+        }
+    }
+    h2{
+        color:#adadad;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+    .flat-button{
+        color: #ffd700;
+        font-size: 8px;
+        font-weight: 200;
+        letter-spacing: 2px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 5px 5px;
+        margin-left: 8px;
+        border: 1px solid #ffd700;
+        margin-top: 8px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+
+        &:hover {
+            background-color: #ffd700;
+            color: #333;
+
+            
+        }
+
+        
+        }
+    }
+}
+    

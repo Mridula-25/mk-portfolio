@@ -40,7 +40,7 @@ const Projects = () => {
                     A personal website to showcase my skills, projects, and resume. Designed to be fully responsive, with smooth scrolling, contact form, and performance-optimized assets.
             </p>
             <p>
-                E-commerce Website
+               2. E-commerce Website
                  Tech Stack: HTML, CSS, JavaScript
 
                   A fully responsive e-commerce website that allows users to browse products, add items to the cart, manage orders, and simulate the checkout process. Designed with a clean UI and built for performance, this project showcases my ability to handle dynamic data, manage component states, and build scalable user interfaces.
@@ -52,7 +52,7 @@ const Projects = () => {
                 Below are a few of my featured front-end projects. I’m always excited to take on new challenges—let’s collaborate and build something great together! 🤝
             </p>
             </div>
-            <div className="shop-section">
+            <div className="Projects">
                 <div className="box">
                     <div className="box-content">
                         <h2>Amazon</h2>  

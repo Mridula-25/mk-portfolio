@@ -46,12 +46,12 @@ const Home = () => {
     
             </h1>
              
-           <h2>Frontend Developer / Javascript / Open-Source Contributor / Collaboration</h2>
+           <h2>drontend Developer / Javascript / Open-Source Contributor / Collaboration</h2>
 
 
             <Link to="/contact" className='flat-button'>CONTACT-ME</Link>
 
-            <a href="/mridula_kanchan_resume.pdf" className="flat-button" download>DOWNLOAD RESUME</a>
+            <a href="/mridula_resume.pdf" className="flat-button" download>DOWNLOAD RESUME</a>
         </div>
          {/* <Logo /> */}
         </div>

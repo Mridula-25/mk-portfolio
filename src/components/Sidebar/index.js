@@ -12,7 +12,7 @@ const Sidebar=()=>(
             <img src={LogoS} alt="logo"/>
             <img className="sub-logo" src={LogoSubtitle} alt="Mridula"/>
 
-        </Link> */}
+        </Link> */ }
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
