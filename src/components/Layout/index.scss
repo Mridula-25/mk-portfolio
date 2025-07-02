@@ -132,7 +132,7 @@
 }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px)  {
 .home-page,
 .about-page,
 .contact-page,
@@ -141,7 +141,7 @@
     .text-zone{
         
         position: absolute;
-        left: 15%;
+        left: 10%;
        
         transform: translateY(-50%);
         width: 10%;
@@ -151,8 +151,8 @@
 
         h1{
            
-            font-size: 200%;
-            margin-top: 150%;
+            font-size: 350%;
+            margin-top: 100%;
             font-family: coolvetica;
             color: #ffd700;
             font-weight: 400;
@@ -162,7 +162,7 @@
             &::before {
                 content: '<h1>';
                 font-family: 'La Belle Aurore';
-                font-size: 9px;
+                font-size: 10px;
                 position: absolute;
                 margin: -10px, 0px 0px -10px;
                 left: -10px;
@@ -189,8 +189,8 @@
         }
 
        p{
-        font-size: 10px;
-        width: 120%;
+        font-size: 14px;
+        width: 180%;
         color: #fff;
         font-family: sans-serif;
         font-weight: 100;
@@ -223,7 +223,7 @@
 }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media  (max-width: 767px) {
 .home-page,
 .about-page,
 .contact-page,
@@ -232,17 +232,17 @@
     .text-zone{
         
         position: absolute;
-        left: 10%;
+        left: 20%;
        
         transform: translateY(-50%);
-        width: 10%;
+        width: 20%;
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
 
         h1{
-           
-            font-size: 100%;
+            width: 500%;
+            font-size: 200%;
             margin-top: 300%;
             font-family: coolvetica;
             color: #ffd700;
@@ -253,7 +253,7 @@
             &::before {
                 content: '<h1>';
                 font-family: 'La Belle Aurore';
-                font-size: 7px;
+                font-size: 8px;
                 position: absolute;
                 margin: -10px, 0px 0px -10px;
                 left: -10px;
@@ -281,7 +281,7 @@
 
        p{
         font-size: 7px;
-        width: 150%;
+        width: 250%;
         color: #fff;
         font-family: sans-serif;
         font-weight: 100;

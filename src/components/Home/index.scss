@@ -92,7 +92,7 @@
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
 .home-page,
 .about-page,
 .contact-page,
@@ -188,7 +188,7 @@
 
 
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media  (max-width: 767px) {
 .home-page,
 .about-page,
 .contact-page,
@@ -196,10 +196,10 @@
     .text-zone {
         position: absolute;
        
-        right: 20%;
+        right: 30%;
         top: 15%;
         transform: translateY(-50%);
-        width: 25%;
+        width: 20%;
         max-height: 90%;
     }
     h1 {

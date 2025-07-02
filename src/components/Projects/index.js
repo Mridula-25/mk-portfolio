@@ -52,7 +52,7 @@ const Projects = () => {
                 Below are a few of my featured front-end projects. I’m always excited to take on new challenges—let’s collaborate and build something great together! 🤝
             </p>
             </div>
-            <div className="Projects">
+            <div className="projects">
                 <div className="box">
                     <div className="box-content">
                         <h2>Amazon</h2>  
