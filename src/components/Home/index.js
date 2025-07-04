@@ -16,13 +16,6 @@ const Home = () => {
     const jobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
     
 
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //         setLetterClass('text-animate-hover')
-    //     }, 4000)
-    // }, []) wrong way to use useEffect, it should be used like this:
-
-
     useEffect(() => {
     const timeout = setTimeout(() => {
         setLetterClass('text-animate-hover')
@@ -46,12 +39,12 @@ const Home = () => {
     
             </h1>
              
-           <h2>drontend Developer / Javascript / Open-Source Contributor / Collaboration</h2>
+           <h2>Frontend Developer / Javascript / Open-Source Contributor / Collaboration</h2>
 
 
             <Link to="/contact" className='flat-button'>CONTACT-ME</Link>
 
-            <a href="/mridula_resume.pdf" className="flat-button" download>DOWNLOAD RESUME</a>
+            <a href="/mridula_resume.pdf" className="flat-button" download> DOWNLOAD RESUME</a>
         </div>
          {/* <Logo /> */}
         </div>

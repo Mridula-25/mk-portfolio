@@ -66,11 +66,12 @@
             font-family: coolvetica;
             color: #ffd700;
             font-weight: 400;
-            // margin: 0px 0px 40px 0px;
+            margin: 0px 0px 40px 0px;
             position: relative;
 
+            
             &::before {
-                content: '<h1>';
+                // content: '<h1>';
                 font-family: 'La Belle Aurore';
                 font-size: 10px;
                 position: absolute;
@@ -81,10 +82,9 @@
                 line-height: 18px; 
                 
             }
-           
 
             &::after {
-                content: '</h1>';
+                // content: '</h1>';
                 font-family: 'La Belle Aurore';
                 font-size: 18px;
                 line-height: 18px; ;
@@ -95,6 +95,7 @@
                 opacity: 0.6;
               
             }
+            
             
         }
 
@@ -159,8 +160,8 @@
             // margin: 0px 0px 40px 0px;
             position: relative;
 
-            &::before {
-                content: '<h1>';
+               &::before {
+                // content: '<h1>';
                 font-family: 'La Belle Aurore';
                 font-size: 10px;
                 position: absolute;
@@ -171,10 +172,9 @@
                 line-height: 18px; 
                 
             }
-           
 
             &::after {
-                content: '</h1>';
+                // content: '</h1>';
                 font-family: 'La Belle Aurore';
                 font-size: 15px;
                 line-height: 14px; ;
@@ -185,6 +185,7 @@
                 opacity: 0.6;
               
             }
+            
             
         }
 
@@ -250,8 +251,9 @@
             // margin: 0px 0px 40px 0px;
             position: relative;
 
+            
             &::before {
-                content: '<h1>';
+                // content: '<h1>';
                 font-family: 'La Belle Aurore';
                 font-size: 8px;
                 position: absolute;
@@ -262,10 +264,9 @@
                 line-height: 18px; 
                 
             }
-           
 
             &::after {
-                content: '</h1>';
+                // content: '</h1>';
                 font-family: 'La Belle Aurore';
                 font-size: 11px;
                 line-height: 10px; ;
@@ -276,6 +277,7 @@
                 opacity: 0.6;
               
             }
+            
             
         }
 
